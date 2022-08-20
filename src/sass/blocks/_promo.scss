@@ -13,20 +13,20 @@
         &_red {
             left: 50%;
             top: 50%;
-            transform: translateY(-50%) translateX(-50%) rotate(-30deg);
-            animation: triangle_red 3s;
+            transform: translateY(-50%) translateX(-50%);
+            animation: triangle_red 12s infinite linear;
         }
         &_blue {
             left: 50%;
             top: 50%;
-            transform: translateY(-50%) translateX(-50%) rotate(15deg);
-            animation: triangle_blue 2.5s;
+            transform: translateY(-50%) translateX(-50%);
+            animation: triangle_blue 10s infinite linear;
         }
     }
     &__designation {
         width: 939px;
         margin: 0 auto;
-        padding-top: 15vh;
+        padding-top: 10vh;
     }
     &__spin {
         position: relative;

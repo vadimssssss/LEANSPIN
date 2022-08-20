@@ -17,9 +17,9 @@
 }
 
 @keyframes triangle_blue {
-    from {transform: translateY(-50%) translateX(-50%) rotate(15deg) translateY(15px);}
+    from {transform: translateY(-50%) translateX(-50%) rotate(15deg);}
 
-    to {transform: translateY(-50%) translateX(-50%) rotate(15deg) translateY(15px) rotate(-360deg);}
+    to {transform: translateY(-50%) translateX(-50%) rotate(15deg) rotate(-360deg);}
 }
 
 @keyframes manage_run {

@@ -56,6 +56,9 @@
                 list-style-type: none;
                 margin-right: 54px;
             }
+            &:hover {
+                animation-play-state: paused;
+            }
         }
         a {
             color: #fff;
